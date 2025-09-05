@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOTEL</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <Main>
+        <div class="container">
+            <nav>
+                <div>
+                    <h2><span>ITI</span>Hotel</h2>
+                </div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/rooms">Rooms</a></li>
+                    <li><a href="/book">Book Now</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Our Hotel</h1>
+                <p>Your comfort is our priority. Experience luxury and relaxation with us.</p>
+                <button>book now</button>
+            </div>
+
+        </section>
+        <!-- end hero -->
+         <!-- booking section -->
+         <section class="booking">
+            <div class="booking-section">
+                <h2>Book Your Stay</h2>
+                <form action="/book" method="POST" class="booking-form">
+                    <label for="checkin">Check-in Date:</label>
+                    <input type="date" id="checkin" name="checkin" required>
+
+                    <label for="checkout">Check-out Date:</label>
+                    <input type="date" id="checkout" name="checkout" required>
+
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" required>
+
+                    <button type="submit" class="btn">Check Availability</button>
+                </form>
+            </div>           
+
+         </section>
+        <footer>
+            <div>
+                <p>&copy; 2025 Hotel. All rights reserved.</p>
+            </div>
+            <div>
+                <p>Follow us on:
+                    <a href="#"><img src="assets/facebook.png" alt="" srcset=""></a> 
+                    <a href="#"><img src="assets/github.png" alt="" srcset=""></a> 
+                    <a href="#"><img src="assets/linkedin.png" alt=""></a>
+                </p>
+            </div>
+
+        </footer>
+    </Main>
+
+</body>
+
+</html>
